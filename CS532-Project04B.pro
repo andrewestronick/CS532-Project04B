@@ -5,12 +5,10 @@ CONFIG -= qt
 
 SOURCES += main.cpp \
     edge.cpp \
-    graph.cpp \
     mst.cpp \
     tree.cpp
 
 HEADERS += \
     edge.h \
-    graph.h \
     mst.h \
     tree.h
