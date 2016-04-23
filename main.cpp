@@ -1,12 +1,14 @@
 #include <iostream>
+#include "mst.h"
 
 using namespace std;
 
 int main(int argc, char *argv[])
 {
-    const string path = "F:/Andrew/_code/CS532/CS532-Project04B/";
-    // input.txt
+    // const string path = "F:/Andrew/_code/CS532/CS532-Project04B/";
+    const string path = "C:/Users/Andrew/Documents/QT/CS532-Project04B/";
 
-    cout << "Hello World!" << endl;
+    MST mst(path + "input.txt");
+
     return 0;
 }

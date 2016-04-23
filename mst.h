@@ -3,6 +3,9 @@
 
 #include <fstream>
 #include <string>
+#include <queue>
+#include <vector>
+#include "edge.h"
 
 class MST
 {
@@ -14,6 +17,7 @@ private:
 
     std::ifstream fin;
     int size;
+    std::priority_queue<Edge, std::vector<Edge>, edgeCompare> edges;
 };
 
 #endif // MST_H
